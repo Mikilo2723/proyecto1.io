@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & family= Open+Sans:wght@400;700 & family= Roboto:wght@400;700 & mostrar=cambiar');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+    font-family:'Roboto', sans-serif; 
+ 
+}
+.container404 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: #ffffff;
+    margin-top: 2%;
+    padding-bottom: 1%;
+    font-size: 1.5rem;
+}
+.bn1-404 {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    margin-top: 5%;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+}
+  
+.bn1-404:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+img {
+    width: 30%; 
+}
+img:hover {
+    width: 100px;
+    transition: 6s;
+    cursor: none;
+}
+@media screen and (min-width: 320px) {
+h1 { 
+    margin-top: 6%;
+    padding-bottom: 6%;
+    font-size: 15px;
+    text-align: center;
+} 
+img {
+    width: 60vw;
+} 
+.bn1-404 {
+    margin-top: 50px;
+} 
+}
+@media screen and (min-width: 360px) {
+h1 { 
+    margin-top: 6%;
+    padding-bottom: 6%;
+    font-size: 1rem;
+    text-align: center;
+} 
+img {
+    width: 60vw; 
+}
+.bn1-404 {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    margin-top: 15%;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+}
+  
+.bn1-404:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
+@media screen and (min-width: 620px) {
+h1 {
+    color: #ffffff;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    font-size: 1.5rem;
+}   
+img {
+    width: 30vw;    
+}
+}
+@media screen and (min-width: 1440px) {
+h1 {
+    color: #ffffff;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    font-size: 2rem;
+} 
+.bn1-404 {
+    display: inline-block;
+    padding: 1.em 1em;
+    border: 3px solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    margin-top: 15%;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    font-size: 20px;
+}
+  
+.bn1-404:hover {
+    color: #000000;
+    background-color: #ffffff;
+}     
+}

@@ -1,0 +1,41 @@
+.section-series{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.img-series-hero{
+ width: 15%;
+ padding: 1%;
+}
+h2{
+    display: block;
+}
+
+.container-fluid{
+    background-image: url(../Contacto/bg.jpeg);
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.left-first{
+    width: 50%;
+}
+.right-first{
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+}
+.left-right-first{
+    display: flex;
+    width: 100%;
+}   
+
+.right-first h2{
+    font-size: 40px;
+    font-weight: 300px;
+}

@@ -1,0 +1,76 @@
+
+
+.container-fluid{
+    background-image: url("loginimg.avif");
+    width: 100%;
+    height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+}
+
+
+.form-login {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4) ;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 120px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-fluid h1{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-bottom: solid 1px #FFD700;
+}
+
+.label-l {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.block-d{
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    transition: .3s;
+}
+
+#boton {
+    font-weight: 500;
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+}
+
+.olvido {
+    color: #fff;
+}
+.olvido:hover {
+    color: rgb(91, 121, 255);
+}
+
+.olvido:focus {
+    color: rgb(255, 10, 10);
+}
+
+.block-d:focus {
+    transition: .3s;
+    transform: scale(1.02);
+}
